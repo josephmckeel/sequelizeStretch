@@ -9,7 +9,7 @@ const { STRING, NUMBER, BOOLEAN, ENUM } = require("sequelize");
 //   }
 // };
 
-const Recipe = db.define("recipe", {
+const Recipe = db.define("Recipe", {
   name: {
     type: STRING,
     defaultValue: "cereal",
